@@ -219,6 +219,12 @@
         }
 
         modalClose.addEventListener('click', hideBuyTickets)
+        
+        modal.addEventListener('click', hideBuyTickets)
+
+        modalContainer.addEventListener('click',function(event){
+            event.stopPropagation()
+        })
 
         modal.addEventListener('click', hideBuyTickets)
 
