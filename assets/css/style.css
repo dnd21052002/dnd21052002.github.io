@@ -7,7 +7,7 @@
 
 html{
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 /* 
 1. Từ ngoài vào trong
@@ -71,6 +71,10 @@ html{
 
 .mt-16{
     margin-top: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
 }
 
 
@@ -241,7 +245,7 @@ html{
 }
 
 #content .member-list{
-    padding-top: 48px;
+    padding-top: 32px;
 }
 
 #content .member-name{
@@ -291,7 +295,7 @@ html{
 
 /* Places */
 .place-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img{
@@ -350,6 +354,15 @@ html{
     display: inline-block;
 }
 
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
+}
+
 .contact-form{
     font-size: 15px;
 }
@@ -370,16 +383,16 @@ html{
     text-align: center;
 }
 
-#footer .social-list{
+#footer .socials-list{
     font-size: 24px;
 }
 
-#footer .social-list a{
+#footer .socials-list a{
     color: rgba(0,0,0,0.6);
     text-decoration: none;
 }
 
-#footer .social-list a:hover{
+#footer .socials-list a:hover{
     color: rgba(0,0,0,0.3);
 }
 
